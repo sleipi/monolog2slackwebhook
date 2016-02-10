@@ -1,0 +1,26 @@
+{
+  "name": "package/skel",
+  "description": "Skeleton for the beginning of new projekts",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "require-dev": {
+    "php": ">=5.4,<7.0",
+    "phpunit/phpunit": "~4.8"
+  },
+
+  "autoload": {
+    "psr-4": {
+      "PCrew\\Package\\Skel\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-0": {
+      "PCrew\\Package\\Skel\\": "tests/unit-tests"
+    }
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-master": "1.0.x-dev"
+    }
+  }
+}

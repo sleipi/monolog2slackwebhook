@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<phpunit bootstrap="tests/bootstrap.php">
+    <testsuites>
+        <testsuite name="Lib">
+            <directory suffix="Test.php">tests/unit-tests/</directory>
+        </testsuite>
+    </testsuites>
+    <filter>
+        <blacklist>
+            <directory suffix=".php">vendor</directory>
+            <directory suffix=".php">unit-testing</directory>
+        </blacklist>
+        <whitelist addUncoveredFilesFromWhitelist="true">
+            <directory suffix=".php">src</directory>
+        </whitelist>
+    </filter>
+    <logging>
+        <log type="coverage-html" target="build/code-coverage"/>
+        <log type="coverage-clover" target="build/logs/coverage-clover.xml"/>
+        <log type="junit" target="build/logs/junit.xml"/>
+    </logging>
+</phpunit>
