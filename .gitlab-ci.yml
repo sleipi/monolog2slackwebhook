@@ -1,2 +1,0 @@
-job1:
-  script: "./composer install;./bin/vendor/phpunit"
