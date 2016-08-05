@@ -1,6 +1,8 @@
 Slack Webhook Handler for Monolog
 =================================
 
+[![Build Status](https://travis-ci.org/sleipi/monolog2slackwebhook.svg?branch=master)](https://travis-ci.org/sleipi/monolog2slackwebhook)
+
 Monolog Handler to push log Messages to a Slack Webhook.
 
 # Usage
