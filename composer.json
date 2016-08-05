@@ -10,6 +10,11 @@
     "curl/curl": "^1.4"
   },
 
+  "suggest": {
+    "monolog/monolog": "Required to send Log messages",
+    "curl/curl": "Curl Wrapper used to send Slack Messages"
+  },
+
   "autoload": {
     "psr-4": {
       "Sleipi\\Monolog2Slack\\": "src/"

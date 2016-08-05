@@ -1,12 +1,15 @@
 <?php
 /**
- * This file is part of Parkingcrew.
+ * This file is part of monolog2slackwebhook repository
  *
- * (c) Team Internet AG
+ * (c) Ronny Herrgesell
+ *
+ * For the full copyright and license information, please view the LICENSE
  *
  * @Author: ronny
  * @Date: 05.08.16
  */
+
 use Sleipi\Monolog2Slack\Message\SlackMessage;
 use Sleipi\Monolog2Slack\Message\Field;
 use Sleipi\Monolog2Slack\SlackMessageFormatter;

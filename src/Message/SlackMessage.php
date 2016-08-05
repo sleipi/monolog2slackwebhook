@@ -1,16 +1,22 @@
 <?php
+/**
+ * This file is part of monolog2slackwebhook repository
+ *
+ * (c) Ronny Herrgesell
+ *
+ * For the full copyright and license information, please view the LICENSE
+ *
+ * @Author: ronny
+ * @Date: 05.08.16
+ */
 
 namespace Sleipi\Monolog2Slack\Message;
 
 use DateTime;
 
 /**
- * This file is part of Parkingcrew.
- *
- * (c) Team Internet AG
- *
- * @Author: ronny
- * @Date: 05.08.16
+ * Class SlackMessage
+ * @package Sleipi\Monolog2Slack\Message
  */
 class SlackMessage
 {
